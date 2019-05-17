@@ -28,8 +28,8 @@ cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test1
 ## 3.3 Part 3 - Biclustering and enrichment analyses
 ## Part 3.1
 
-./master/runmeta --biclustering -i ./meta_data/results/hGEM_filt/ -o ./meta_data/results/bic/ --QUBIC -c 1 -f 0.8 -o 100 
+./master/runmeta --biclustering -i ./meta_data/results/hGEM_filt/RDRPK_hGEM_filt.txt -o ./meta_data/results/bic/ --QUBIC -c 1 -f 0.8 -o 100 
 
 ## Part 3.2
 
-./master/runmeta --enrichment -i ./meta_data/results/bic -g ./meta_data/data/annotation/KEGG_ann.txt -o ./meta_data/results/enrich_out/
+./master/runmeta --enrichment -i ./meta_data/results/bic/RDRPK_735_hGEM.txt.blocks -g ./meta_data/data/annotation/KEGG_ann.txt -o ./meta_data/results/enrich_out/
