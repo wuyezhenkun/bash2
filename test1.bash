@@ -22,8 +22,7 @@ cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test1
 ./master/runmeta --CatToMat -i ./meta_data/results/cat/ -m ./meta_data/data/735_hGEM/ -o ./meta_data/results/hGEM/
 
 ## Part 2.2
-
-./master/runmeta --filtering -i ./meta_data/results/hGEM/ -minTPM 1 -NominTPM 2 -o ./meta_data/results/hGEM_filt/
+./master/runmeta --filtering -i ./meta_data/data/ref/IGC_ref.fa -m ./meta_data/results/hGEM/  -minTPM 1 -NominTPM 2 -o ./meta_data/results/hGEM_filt/
 
 ## 3.3 Part 3 - Biclustering and enrichment analyses
 ## Part 3.1
