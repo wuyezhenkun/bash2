@@ -10,7 +10,7 @@ set –x
 ## This bash file tests all commands in the general pipeline
 
 
-cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test4
+cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test5
 
 ./metaqubic-master/runmeta --mapping -s ./meta_data/data/samples -ref ./meta_data/data/ref/IGC_ref.fa -ind ./meta_data/data/ref_index -o1 ./meta_data/results/align_out -o2 ./meta_data/results/cat
 
