@@ -12,7 +12,7 @@ set –x
 
 cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test4
 
-
+./metaqubic-master/runmeta --mapping -s ./meta_data/data/samples -ref ./meta_data/data/ref/IGC_ref.fa -ind ./meta_data/data/ref_index -o1 ./meta_data/results/align_out -o2 ./meta_data/results/cat
 
 ./metaqubic-master/runmeta --CatToMat -i ./meta_data/results/cat/ -m ./meta_data/data/735_hGEM/ -o ./meta_data/results/hGEM/
 
