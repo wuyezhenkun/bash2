@@ -15,4 +15,4 @@ cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test3
 ./metaqubic-master/runmeta --biclustering -i ./meta_data/results/hGEM_filt/RDRPK_hGEM_filt.txt -o ./meta_data/results/bic/ --QUBIC -f 0.8 -o 200 
 
 ## enrichment OK
-./metaqubic-master/runmeta --enrichment -i ./meta_data/results/bic/RDRPK_735_hGEM.txt.blocks -g ./meta_data/data/annotation/KEGG_annotation.txt -o ./meta_data/results/enrich_out/
+./metaqubic-master/runmeta --enrichment -i ./meta_data/results/bic/RDRPK_hGEM_filt.txt.blocks -g ./meta_data/data/annotation/KEGG_annotation.txt -o ./meta_data/results/enrich_out/
