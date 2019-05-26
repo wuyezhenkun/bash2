@@ -6,7 +6,7 @@
 # echo commands to stdout 
 set –x
 
-##
+cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test_final
 
 ./metaqubic-master/runmeta --mapping -s ./meta_data/data/samples/ -ref ./meta_data/data/ref/IGC_ref.fa -o1 ./meta_data/results/align_out/ -o2 ./meta_data/results/cat/
 
