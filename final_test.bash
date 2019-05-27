@@ -6,7 +6,7 @@
 # echo commands to stdout 
 set –x
 
-cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test_final
+cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test_final_2
 
 ## install program
 wget https://github.com/OSU-BMBL/metaqubic/archive/master.zip
