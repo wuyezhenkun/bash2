@@ -8,17 +8,6 @@ set –x
 
 cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/test_final_2
 
-## install program
-wget https://github.com/OSU-BMBL/metaqubic/archive/master.zip
-cd ./metaqubic-master
-sh setup.sh
-cd ..
-
-
-## download data
-wget http://bmbl.sdstate.edu/metaqubic/meta_data.gz
-tar -xvzf meta_data.gz && rm -rf meta_data.gz
-
 
 
 ./metaqubic-master/runmeta --mapping -s ./meta_data/data/samples/ -ref ./meta_data/data/ref/IGC_ref.fa -o1 ./meta_data/results/align_out/ -o2 ./meta_data/results/cat/
