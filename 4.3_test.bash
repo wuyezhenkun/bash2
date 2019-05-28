@@ -6,7 +6,7 @@
 # echo commands to stdout 
 set –x
 
-cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.3_test
+cd /pylon5/cc5fpcp/weiliang/BMBL/metaqubic/4.3
 
 
 
